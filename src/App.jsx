@@ -1,7 +1,7 @@
 import './App.css'
 import NavBar from './components/NavBar/NavBar.jsx';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer.jsx'; 
-import ContadorContainer from './EJ/ContadorContainer.jsx';
+
 
 
 function App() {
@@ -14,8 +14,7 @@ function App() {
   return (
     <div>
       <NavBar />
-      <ItemListContainer saludo={"Hola mundo"} despedida={"Adiós mundo"} saludar={saludar} />
-      <ContadorContainer />
+      <ItemListContainer saludo={"Hola mundo"} despedida={"Adiós mundo"} />
     </div>
     )
 }

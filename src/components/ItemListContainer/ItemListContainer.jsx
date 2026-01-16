@@ -1,8 +1,7 @@
-const ItemListContainer = ({ saludo, despedida, saludar }) => {
+const ItemListContainer = ({ saludo }) => {
     return (
         <div>
             <h2>{saludo}</h2>
-            <h2>{despedida}</h2>
         </div>
     );
 };

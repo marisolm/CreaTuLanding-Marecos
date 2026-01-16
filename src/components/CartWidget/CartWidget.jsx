@@ -4,7 +4,7 @@ const CartWidget = () => {
     return (
         <div className="cart">
             <IoCartOutline size={50}/>
-            <p>1</p>
+            <span className="cart-count">1</span>
         </div>
     );
 }

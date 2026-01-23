@@ -25,3 +25,15 @@
   background-color: #f8f8f8;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
+.cart-widget {
+    display: flex;         /* Alinea los hijos en línea */
+    align-items: center;   /* Centra verticalmente el icono y el número */
+    gap: 5px;             /* Crea un espacio pequeño entre el icono y el 1 */
+}
+
+.cart-count {
+    font-size: 1.2rem;     /* Ajusta el tamaño del número */
+    font-weight: bold;
+    color: #333;           /* Color del número */
+}

@@ -59,8 +59,32 @@
     margin-bottom: 20px;
 }
 
+.detail-stock {
+    font-size: 1.2rem;
+    color: #d9534f;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
 .detail-controls {
     margin-top: 20px;
     padding-top: 20px;
     border-top: 1px solid #eee;
+}
+
+.link-button {
+    font-size:15px;
+    font-family:Arial;
+    width:140px;
+    height:50px;
+    border-width:1px;
+    color:#666666;
+    border-color:#dcdcdc;
+    font-weight:bold;
+    border-top-left-radius:6px;
+    border-top-right-radius:6px;
+    border-bottom-left-radius:6px;
+    border-bottom-right-radius:6px;
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+    background:linear-gradient(#ffffff, #f6f6f6);
 }
